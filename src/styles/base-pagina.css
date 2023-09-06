@@ -15,5 +15,77 @@
   --amarelo-nublado: #ffd966;
   --laranja-medio-ensolarado: #f4b183;
   --laranja-escuro-ensolarado: #dfa67b;
+  --cabecalho: #413f42;
   --fonte: "Poppins", sans-serif;
+}
+
+/* Página principal */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 200vh;
+  font-family: var(--fonte);
+}
+
+main {
+  display: flex;
+}
+
+#fundo-colorido {
+  align-items: center;
+  margin: 0;
+  margin-top: 50vh;
+  width: 99.1vw;
+  height: 200vh;
+  border-radius: 100% 100% 0 0;
+  background-color: var(--amarelo-nublado);
+  position: absolute;
+}
+
+#modal-carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 80%;
+  width: 80vw;
+  height: 96vh;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  background-color: var(--cabecalho);
+  width: 99.1vw;
+  height: 250px;
+  bottom: -150vh;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.contatos {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+}
+
+.lista-contato {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contato-1,
+.contato-2 {
+  display: flex;
+  flex-direction: column;
 }
