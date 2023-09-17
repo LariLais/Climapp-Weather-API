@@ -10,20 +10,62 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Estilos -->
     <link rel="stylesheet" href="./styles/base-pagina.css" />
     <link rel="stylesheet" href="./styles/carrossel.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <link rel="icon" type="image/jpg" href="./assets/cloud-solid-1.svg" />
-    <title>Season Aplication</title>
+    <!-- Scripts -->
+    <script src="./js/script.js" defer></script>
+    <title>Climapp | Weather API</title>
   </head>
   <body>
     <main>
       <div id="fundo-colorido"></div>
+      <!-- HEADER E NAVEGAÇÃO  -->
+      <header>
+        <nav class="navbar">
+          <h1 id="titulo-site" onclick="reload()">
+            <span class="material-symbols-outlined logo"> public </span>
+            Climapp
+          </h1>
+          <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="#">Home</a></li>
+            <li class="nav-menu-item"><a href="#">Mapas</a></li>
+            <li class="nav-menu-item"><a href="#">Contato</a></li>
+            <li class="nav-menu-item"><a href="#">Previsão</a></li>
+            <li class="nav-menu-item">
+              <form class="form-navbar" action="#">
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="Pesquise um local"
+                />
+                <button class="search-btn" type="submit">
+                  <span class="material-symbols-outlined"> search </span>
+                </button>
+              </form>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#"
+                ><span class="material-symbols-outlined toggle">
+                  toggle_off
+                </span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
       <div id="modal-carrossel"></div>
     </main>
 
