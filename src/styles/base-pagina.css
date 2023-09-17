@@ -16,10 +16,18 @@
   --laranja-medio-ensolarado: #f4b183;
   --laranja-escuro-ensolarado: #dfa67b;
   --cabecalho: #413f42;
-  --fonte: "Poppins", sans-serif;
+  --fonte: "Lato", sans-serif;
 }
 
 /* Página principal */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
 
 body {
   margin: 0;
