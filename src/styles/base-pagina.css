@@ -52,18 +52,6 @@ main {
   position: absolute;
 }
 
-#modal-carrossel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  opacity: 80%;
-  width: 80vw;
-  height: 96vh;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
 footer {
   display: flex;
   position: absolute;
