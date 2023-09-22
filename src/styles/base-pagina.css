@@ -57,12 +57,17 @@ footer {
   position: absolute;
   background-color: var(--cabecalho);
   width: 99.1vw;
-  height: 250px;
-  bottom: -150vh;
+  height: 200px;
+  bottom: -151vh;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   color: white;
+  gap: 15px;
+}
+
+footer p {
+  font-size: smaller;
 }
 
 .contatos {
@@ -70,6 +75,10 @@ footer {
   justify-content: center;
   padding: 0;
   gap: 20px;
+}
+
+.contatos p {
+  font-size: 12px;
 }
 
 .lista-contato {

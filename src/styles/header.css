@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 15px;
   box-shadow: 0 0 1rem 0rem #535353;
   background-color: #fff;
   width: 100%;
@@ -18,8 +18,8 @@
   cursor: pointer;
 }
 
-#titulo-site h1 {
-  font-size: 24px;
+#titulo-site {
+  font-size: 18px;
 }
 
 #titulo-site span {
@@ -32,8 +32,14 @@
   gap: 30px;
 }
 
+.nav-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav-menu-item a {
-  font-size: 18px;
+  font-size: 12px;
   color: #535353;
   font-weight: 600;
   transition: all 0.5s;
@@ -53,17 +59,18 @@
   padding: 0 10px;
   border: 1px solid #535353;
   outline: none;
+  height: 30px;
 }
 
 .search-input::placeholder {
-  font-size: 16px;
+  font-size: 10px;
 }
 
 .search-btn {
   border-radius: 0 5px 5px 0;
   border: 1px solid #535353;
   background-color: rgb(60, 60, 102);
-  padding: 4px 6px;
+  padding: 0px 4px;
   cursor: pointer;
   outline: none;
 }
